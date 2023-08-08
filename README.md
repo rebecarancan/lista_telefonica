@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Oficina 'Testando Rails Requests'
 
-Things you may want to cover:
+## Requeriments
 
-* Ruby version
+* Ruby version: 2.5.1
 
-* System dependencies
+* Rails version: 5.2.8
 
-* Configuration
+## Set up the app
 
-* Database creation
+After downloading the repository:
 
-* Database initialization
+    $ cd lista-telefonica
+    $ bundle install
+    $ rails db:create db:migrate
+    $ rails s
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## To run specs
 
-* Deployment instructions
-
-* ...
+    $ rspec ./spec/path_to_test
